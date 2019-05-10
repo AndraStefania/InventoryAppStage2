@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditorActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/text_view_style"
+                android:text="@string/product" />
+
+            <LinearLayout
+                android:layout_width="@dimen/layout_width"
+                android:layout_height="wrap_content"
+                android:layout_weight="@dimen/layout_weight"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/name"
+                    style="@style/name_text_view_style"
+                    android:hint="@string/name" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/padding">
+
+                    <Button
+                        android:id="@+id/plus_button"
+                        style="@style/quantity_button_style"
+                        android:text="@string/plus" />
+
+
+                    <EditText
+                        android:id="@+id/quantity"
+                        style="@style/quantity_edit_text_style"
+                        android:hint="@string/quantity" />
+
+                    <Button
+                        android:id="@+id/minus_button"
+                        style="@style/quantity_button_style"
+                        android:text="@string/minus" />
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/price"
+                    style="@style/price_edit_text_style"
+                    android:hint="@string/price" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/text_view_style"
+                android:text="@string/supplier" />
+
+            <LinearLayout
+                android:layout_width="@dimen/layout_width"
+                android:layout_height="wrap_content"
+                android:layout_weight="@dimen/layout_weight"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/supplier_name"
+                    style="@style/name_text_view_style"
+                    android:hint="@string/name" />
+
+                <EditText
+                    android:id="@+id/supplier_phone"
+                    style="@style/supplier_phone_style"
+                    android:hint="@string/supplier_phone_number" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/order_button"
+            style="@style/button_style"
+            android:text="@string/order" />
+    </LinearLayout>
+</ScrollView>

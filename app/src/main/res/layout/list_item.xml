@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Layout for a single list item in the inventory list -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    android:padding="@dimen/activity_margin">
+
+    <LinearLayout
+        android:layout_width="@dimen/layout_width"
+        android:layout_height="wrap_content"
+        android:layout_weight="@dimen/layout_weight"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_margin">
+
+        <TextView
+            android:id="@+id/inv_name"
+            android:text="@string/name"
+            style="@style/list_item_name" />
+
+        <TextView
+            android:id="@+id/inv_price"
+            android:text="@string/price"
+            style="@style/list_item_style" />
+
+        <TextView
+            android:id="@+id/inv_quantity"
+            android:text="@string/quantity"
+            style="@style/list_item_style" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sale"
+        android:text="@string/sale"
+        style="@style/list_item_button" />
+
+</LinearLayout>

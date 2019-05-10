@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="text_size">24sp</dimen>
+    <dimen name="layout_width">0dp</dimen>
+    <dimen name="layout_weight">1</dimen>
+    <dimen name="activity_margin">8dp</dimen>
+    <dimen name="fab_margin">24dp</dimen>
+    <dimen name="button_layout_size">48dp</dimen>
+
+
+</resources>

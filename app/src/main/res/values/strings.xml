@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Inventory App Stage 2</string>
+
+    <string name="product">Product </string>
+    <string name="name">Name</string>
+    <string name="quantity"> Quantity</string>
+    <string name="price">Price</string>
+    <string name="supplier">Supplier</string>
+    <string name="supplier_phone_number"> Phone number</string>
+    <string name="save">SAVE</string>
+    <string name="cannot_be_empty"> cannot be empty!</string>
+    <string name="save_error"> Error with saving Product</string>
+    <string name="added_info"> Product added!</string>
+    <string name="row_id"> Row id:</string>
+    <string name="add_product"> Add new product </string>
+    <string name="phone_error"> Contains 10 digits!</string>
+    <string name="empty_field_error"> Enter a value!</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="order">order</string>
+    <string name="added_msg">Inv product successfully added!</string>
+    <string name="edit_product">Edit the selected inv product</string>
+    <string name="empty_database_image">Empty database image</string>
+    <string name="empty_database">Empty database </string>
+    <string name="add_new_entry"> Click on the add(+) button,
+        \n or click on the menu for \n Adding new Inv product!</string>
+    <string name="sale">Sale</string>
+    <string name="no_changes">No fields were modified</string>
+    <string name="update_error">Error with updating the inv product</string>
+    <string name="updated_msg">Inv product updated</string>
+    <string name="blank" />
+    <string name="discard_msg">Discard your changes and quit editing</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete_msg">Delete this inv product entry?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="deleting_error_msg">Error with deleting inv product entry</string>
+    <string name="product_deleted">Inv product deleted</string>
+    <string name="delete_all_entries">Delete all entries</string>
+
+</resources>

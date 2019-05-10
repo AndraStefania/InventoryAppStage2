@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Empty view for the list -->
+    <RelativeLayout
+        android:id="@+id/empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/empty_database"
+            android:src="@drawable/empty_database_image"
+            style="@style/list_item_image" />
+
+        <TextView
+            android:id="@+id/empty_title_text"
+            style="@style/empty_title_style"
+            android:text="@string/empty_database" />
+
+        <TextView
+            android:id="@+id/empty_subtitle_text"
+            style="@style/empty_subtitle_style"
+            android:text="@string/add_new_entry" />
+
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:src="@drawable/add"
+        style="@style/fab_style" />
+
+</RelativeLayout>
+
